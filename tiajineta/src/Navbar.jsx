@@ -1,12 +1,16 @@
 import React from "react";
 import "./Navbar.css";
+import INES from "./img/INES.png";
 
 export default function Navbar() {
   return (
     <nav className="navbar">
-      <div className="navbar-container">
+      <div className="navbar-container" >
         <a href="/" className="navbar-logo">
-          Tia Jineta
+          <img  style={{
+            width: "120px",
+            marginTop: "-35px",
+          }} src={INES} alt="" />
         </a>
         
           <ul className="navbar-menu">

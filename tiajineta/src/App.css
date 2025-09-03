@@ -13,3 +13,15 @@ body {
     max-width: 100%;
     
 }
+
+/* Estilos para la galería de imágenes con scroll horizontal */
+
+.scroll-container {
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+
